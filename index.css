@@ -1,0 +1,42 @@
+body {
+    background-color: LightSteelBlue;
+}
+
+button {
+    margin: 4px;
+}
+
+input {
+    margin: 2px;
+}
+
+#tableContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#eventContainer {
+    width: 450px;
+    height: 350px;
+    padding: 4px;
+    border-style: solid;
+    border-width: medium;
+    border-right-width: thin;
+    background-color: white;
+    overflow: auto;
+}
+
+#formContainer {
+    width: 250px;
+    height: 350px;
+    padding: 4px;
+    border-style: solid;
+    border-width: medium;
+    border-left-width: thin;
+    background-color: white;
+}
+
+.centerText {
+    text-align: center
+}

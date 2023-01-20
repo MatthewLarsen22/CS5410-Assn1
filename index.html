@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Browser Game Loop</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body onload="gameLoop()">
+    <div id="loopContainer">
+        <h1 class="centerText">Browser Game Loop</h1>
+
+        <div id="tableContainer">
+            <div id="eventContainer">
+                <h3 class="centerText">Events</h3>
+            </div>
+
+            <div id="formContainer" class="centerText">
+                <h3>Create Event</h3>
+                <form>
+                    <div >
+                        <label for="Name">Name:&nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" id="Name"/>
+                    </div>
+
+
+                    <div>
+                        <label for="Interval">Interval:</label>
+                        <input type="text" id="Interval"/>
+                    </div>
+
+                    <div>
+                        <label for="Times"># Times:</label>
+                        <input type="text" id="Times"/>
+                    </div>
+
+                    <button type="button" onclick="processInput()">Add Event</button>
+                </form>
+            </div>
+        </div>
+
+        <p class="centerText">Created for CS 5410</p>
+    </div>
+</body>
+</html>
