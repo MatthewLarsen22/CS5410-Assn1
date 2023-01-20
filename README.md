@@ -1,0 +1,2 @@
+The purpose of this assignment is to help introduce the structure of the game loop and help build familiarity with the JavaScript language and some basic HTML.
+This application provides a simple user interface that allows users to create timed events that are reported at specified intervals for some number of times.
